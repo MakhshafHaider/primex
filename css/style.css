@@ -230,7 +230,6 @@ img {
   padding: 5px 20px;
   color: #000000;
 }
-
 /* First level sub-menu styles
 ========================================================*/
 .sf-menu > li > ul {
@@ -421,36 +420,6 @@ img {
     margin-top: 30px;
   }
 }
-/*========= About us =========*/
-#about-us{
-  /* justify-content: center; */
-  width: 100%;
-  text-align: center;
-}
-.about-us_section{
-  padding: 60px 130px; 
-}
-.indent_1{
-  text-align: center;
-}
-.text_about_5{
-line-height: 1.5;
-}
-.btn_about_2{
-  margin-top: 40px !important;
-  display: inline-block;
-  padding: 8px 20px 6px;
-  font: 400 24px/30px 'Marvel', sans-serif;
-  color: #413d3d;
-  background: #f1f045;
-  margin: 0 auto;
-  font-weight: 700;
-}
-.btn_about_2:hover {
-  color: #ffffff;
-  background: #249f9c;
-  text-decoration: none;
-}
 /*============  Butttons  =============*/
 .btn_1 {
   display: inline-block;
@@ -459,12 +428,10 @@ line-height: 1.5;
   letter-spacing: 1.5px;
   color: #000000;
   background: #f1f045;
-  font-weight: 800;
 }
 .btn_1:hover {
   color: #ffffff;
   background: #249f9c;
-  font-weight: 800;
   text-decoration: none;
 }
 .btn_2 {
@@ -491,22 +458,6 @@ line-height: 1.5;
   background: #249f9c;
   text-decoration: none;
 }
-.text-subtitle:before{
-  content: '[';
-  margin-right: 14px;
-  color: #249f9c;
-  font-weight: 600;
-}
-.text-subtitle{
-font-size: 32px;
-}
-.text-subtitle:after{
-  content: ']';
-  margin-left: 14px;
-  color: #249f9c;
-  font-weight: 600;
-}
-
 /*============  Images  =============*/
 .img_1 {
   margin: 3px 0 9px 0;
@@ -870,6 +821,44 @@ address .text_7 + .text_8 {
 .terms-list p + p {
   padding-top: 12px;
 }
+#input_form{
+  width: 80%;
+  padding: 10px 20px;
+}
+#textarea_form{
+  margin-top: 2%;
+  width: 94%;
+  height: 200px;
+  padding: 10px 20px;
+  /* padding: 60px 60px; */
+}
+#button_form{
+  cursor: pointer;
+    display: inline-block;
+    padding: 4px 20px 3px;
+    font: 400 24px/30px 'Marvel', sans-serif;
+    color: #413d3d;
+    background: #f1f045;
+    border: none;
+}
+#button_form:hover{
+  border: none;
+    color: #ffffff;
+    background: #249f9c;
+    text-decoration: none;
+  
+}
+
+@media (max-width: 767px) {
+  #textarea_form{
+    margin-top: 2%;
+    width: 80%;
+    height: 100px
+    /* padding: 60px 60px; */
+  }
+  #input_form{
+margin-top: 15px;  }
+}
 /*============  LightBox =============*/
 a[data-type='lightbox'] {
   display: block;
@@ -884,6 +873,23 @@ a[data-type='lightbox']:hover img {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
+
+.text-subtitle:before{
+  content: '[';
+  margin-right: 14px;
+  color: #249f9c;
+  font-weight: 600;
+}
+.text-subtitle{
+font-size: 32px;
+}
+.text-subtitle:after{
+  content: ']';
+  margin-left: 14px;
+  color: #249f9c;
+  font-weight: 600;
+}
+
 @media (max-width: 767px) {
   a[data-type='lightbox'].last-row {
     margin-bottom: 8px;
